@@ -1,0 +1,92 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    margin: 0;
+    font-family: 'Open sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.top {
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+.nav-list {
+    display: flex;
+
+}
+
+.nav-list > li {
+    margin-right: 50px;
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.top-image {
+    width: 80%;
+}
+
+
+/* what we do styles */
+
+#what-we-do {
+    padding-top: 20px;
+    margin: 20px auto;
+    text-align: center;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+     flex-wrap: wrap;
+    
+}
+
+.what-we-do {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.img-wwd {
+    width: 20%;
+    text-align: center;
+}
