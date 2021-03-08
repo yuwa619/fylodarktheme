@@ -90,3 +90,22 @@ a {
     width: 20%;
     text-align: center;
 }
+
+#how-it-works {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.img-htw {
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
